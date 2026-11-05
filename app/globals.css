@@ -1,26 +1,75 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-surface: #fff8f7;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fff0f0;
+  --color-surface-container: #ffe9e8;
+  --color-surface-container-high: #fce2e2;
+  --color-on-surface: #251818;
+  --color-on-surface-variant: #574048;
+  --color-primary: #b10e6b;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #d23284;
+  --color-secondary: #a43073;
+  --color-on-secondary: #ffffff;
+  --color-secondary-fixed: #ffd8e7;
+  --color-tertiary: #b40b56;
+  --color-outline-variant: #debec8;
+  --color-error: #ba1a1a;
+
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-body: var(--font-jakarta), system-ui, sans-serif;
+
+  --shadow-pillow: 0 12px 32px -4px rgba(177, 14, 107, 0.08),
+    0 2px 6px rgba(120, 101, 101, 0.04);
+  --shadow-lift: 0 18px 36px -4px rgba(236, 72, 153, 0.16);
+
+  --animate-float: float 4.5s ease-in-out infinite;
+  --animate-pop: pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(3deg);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes pop {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    font-family: var(--font-body);
+  }
+
+  ::selection {
+    background: var(--color-secondary-fixed);
+    color: #76014e;
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

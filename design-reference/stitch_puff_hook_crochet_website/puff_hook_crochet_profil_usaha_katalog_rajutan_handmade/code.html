@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-on-surface": "#ffedec", "surface-variant": "#f6dddc", "primary-container": "#d23284", "surface-tint": "#b4136d", "secondary": "#a43073", "on-tertiary-fixed-variant": "#8f0042", "primary-fixed-dim": "#ffb0cd", "secondary-fixed-dim": "#ffafd3", "surface-container-low": "#fff0f0", "tertiary-fixed": "#ffd9e0", "on-surface": "#251818", "tertiary-fixed-dim": "#ffb1c3", "on-secondary-fixed-variant": "#85145a", "on-secondary-fixed": "#3d0026", "on-primary-fixed": "#3e0022", "error": "#ba1a1a", "background": "#fff8f7", "surface-container-lowest": "#ffffff", "surface-bright": "#fff8f7", "outline-variant": "#debec8", "surface": "#fff8f7", "tertiary-container": "#d7306f", "primary-fixed": "#ffd9e4", "surface-container-highest": "#f6dddc", "on-tertiary-container": "#fffbff", "primary": "#b10e6b", "surface-container-high": "#fce2e2", "on-error-container": "#93000a", "error-container": "#ffdad6", "surface-dim": "#edd4d4", "on-tertiary-fixed": "#3f0019", "on-tertiary": "#ffffff", "on-surface-variant": "#574048", "secondary-fixed": "#ffd8e7", "on-secondary": "#ffffff", "on-error": "#ffffff", "on-secondary-container": "#76014e", "surface-container": "#ffe9e8", "outline": "#8b7079", "on-primary-fixed-variant": "#8c0053", "secondary-container": "#fc79bd", "tertiary": "#b40b56", "inverse-primary": "#ffb0cd", "inverse-surface": "#3c2d2d", "on-primary": "#ffffff", "on-primary-container": "#fffbff", "on-background": "#251818" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-mobile": "1rem", "margin-mobile": "1.25rem", "space-md": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "margin": "3rem", "gutter": "1.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-lg": ["Playfair Display"], "headline-sm": ["Playfair Display"], "display-lg": ["Playfair Display"], "headline-lg-mobile": ["Playfair Display"], "label-sm": ["Plus Jakarta Sans"], "display-lg-mobile": ["Playfair Display"], "body-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "title-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"] }, "fontSize": { "headline-lg": ["40px", { "lineHeight": "48px", "fontWeight": "600" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "500" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-lg-mobile": ["30px", { "lineHeight": "38px", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "display-lg-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }], "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "700" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_12px_32px_-4px_rgba(190,24,93,0.06)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Puff Hook Crochet Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WgFulLWjjEXZDtSQlPOcyNIrYBCY9OL5BQ4Pn0pKrdjf978f1wM1COHwElLkOIVak-4rZ-HTguM0L9Fs16hWEGL8NgS5-Sys-vCRIgkaI9UGu08ff7BgndB3VaxLsfMHRA5H3OPsVaVh13OQKqgOCSXRJ2rdF06dk9BNB_xZEonpB9sqVe3S5LL-2b3sidPm-05QYpYaoB_fR5Mu5y7RWKMmhYOc0aJVWqvGaXRMFFHs2TyiDRJDn1YgWe"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Puff Hook</span><span class="font-label-sm text-label-sm text-on-surface-variant">Artisan Crochet &amp; Puff Magic</span></div></div><nav class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container-low/70 rounded-full" data-active-classes="bg-surface-container-high text-primary font-bold rounded-full"><a aria-current="page" class="px-space-md py-space-sm transition-all bg-surface-container-high text-primary font-bold rounded-full" data-path="beranda" href="#">Beranda</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container-high px-space-md py-space-sm rounded-full transition-all" data-path="tentang-kami" href="#">Tentang Kami</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container-high px-space-md py-space-sm rounded-full transition-all" data-path="koleksi-produk" href="#">Koleksi Produk</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container-high px-space-md py-space-sm rounded-full transition-all" data-path="galeri-rajutan" href="#">Galeri Rajutan</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container-high px-space-md py-space-sm rounded-full transition-all" data-path="custom-order" href="#">Custom Order</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-surface-container-high px-space-md py-space-sm rounded-full transition-all" data-path="kontak" href="#">Kontak</a></nav><div class="flex items-center gap-space-sm shrink-0"><a class="hidden sm:inline-flex items-center justify-center font-label-md text-label-md bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container hover:text-on-secondary-container px-space-md py-space-sm rounded-full shadow-[0_2px_6px_rgba(120,101,101,0.04)] transition-all" data-path="koleksi-produk" href="#">Katalog Rajutan</a><a class="inline-flex items-center justify-center font-label-md text-label-md bg-primary text-on-primary hover:bg-surface-tint px-space-md py-space-sm rounded-full shadow-[0_12px_32px_-4px_rgba(190,24,93,0.18)] hover:-translate-y-0.5 transition-all" data-path="kontak" href="#">WhatsApp</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full overflow-hidden">
+<!-- HERO SECTION -->
+<section class="relative w-full py-space-xl lg:py-28 px-margin-mobile lg:px-margin bg-gradient-to-b from-surface-container-low/60 via-surface to-background">
+<!-- Ambient blurred background spots -->
+<div class="absolute -top-24 left-1/4 w-96 h-96 bg-primary-fixed-dim/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 right-10 w-80 h-80 bg-secondary-fixed/40 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Copy & Value Proposition -->
+<div class="lg:col-span-7 flex flex-col gap-space-md text-left">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-high w-fit shadow-sm">
+<span class="text-sm">🌸</span>
+<span class="font-label-md text-label-md text-primary font-bold">100% Handmade with Love &amp; Fluffy Yarn</span>
+</div>
+<h1 class="font-display-lg text-display-lg-mobile lg:text-display-lg text-on-surface leading-tight">
+          Kehangatan Rajutan <span class="italic text-primary">Lembut</span> di Setiap Puff Stitch.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+          Puff Hook menghadirkan aneka kreasi crochet premium mulai dari Amigurumi gemas, Puff Flower Bouquet, Cardigan, hingga Tote Bag estetik bernuansa pastel pink &amp; warm cream.
+        </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md bg-primary text-on-primary hover:bg-surface-tint px-space-lg py-3.5 rounded-full shadow-[0_12px_28px_-4px_rgba(177,14,107,0.28)] hover:-translate-y-0.5 transition-all" href="#koleksi-produk">
+<span>Jelajahi Produk Pilihan</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md bg-surface-container-lowest text-primary hover:bg-surface-container-high px-space-lg py-3.5 rounded-full shadow-sm hover:-translate-y-0.5 transition-all" href="#custom-order">
+<span>Pesan Custom Rajutan</span>
+<span class="text-sm">🧶</span>
+</a>
+</div>
+<!-- Key Value Badges -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-md max-w-lg">
+<div class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-lowest/80 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">eco</span>
+<div class="flex flex-col">
+<span class="font-label-md text-xs font-bold text-on-surface">Milk Cotton</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Serat halus &amp; adem</span>
+</div>
+</div>
+<div class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-lowest/80 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+<div class="flex flex-col">
+<span class="font-label-md text-xs font-bold text-on-surface">Presisi Tinggi</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Jahitan rapi rapat</span>
+</div>
+</div>
+<div class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-lowest/80 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">palette</span>
+<div class="flex flex-col">
+<span class="font-label-md text-xs font-bold text-on-surface">Bebas Custom</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Warna &amp; inisial nama</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Composition with Hero Image & Animated SVG -->
+<div class="lg:col-span-5 relative flex flex-col items-center">
+<!-- Floating Trust Badge -->
+<div class="absolute -top-4 -left-4 sm:left-4 z-20 bg-surface-container-lowest/95 backdrop-blur-md px-space-md py-space-xs rounded-full shadow-[0_12px_32px_-4px_rgba(177,14,107,0.15)] flex items-center gap-2 animate-bounce" style="animation-duration: 3s;">
+<span class="text-base">✨</span>
+<span class="font-label-md text-label-md text-primary font-bold">4,800+ Pesanan Rajutan Terkirim</span>
+</div>
+<!-- Cohesive Frame Stack -->
+<div class="relative w-full max-w-md bg-surface-container-lowest rounded-[2.5rem] p-3 shadow-[0_20px_48px_-8px_rgba(177,14,107,0.18)]">
+<div class="relative rounded-[2rem] overflow-hidden aspect-[4/3] bg-surface-container-high">
+<img alt="Koleksi Rajutan Pastel Puff Hook" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYFY0IM6w8gneeqfrCaQ1UowMWzWe2WJTVtQVM7lXAoBPheVDOVmW_vELL8skz-lZhAPF03a4zkSpCZ0-gpMcaP6nCfvnX2Sk_TbJPCx27Sz3RnYntStP47TW-yDFhe6cb5ZVKs_dAgCpLAwWR0q05zF4oWklXmYS1i1jRXVGGlvV7rNq9doam8Eg2t8HYbEkP9Og_5BWctTGXb25t8S2HinLlzRZ74DcRxwb27pFLfDfMGgqYxgVXYA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent pointer-events-none"></div>
+</div>
+<!-- Embedded Interactive Animated Crochet Accent -->
+<div class="mt-3 p-3 rounded-2xl bg-surface-container-low/70 flex flex-col items-center">
+<div class="w-full h-44 flex items-center justify-center overflow-hidden rounded-xl bg-surface-container-lowest">
+<!-- STITCH_SVG_START:ANIMATION_2 class="w-full h-72" --><div class="w-full h-72" id="animated-svg-ANIMATION_2" style="display:block;"><svg height="100%" viewbox="0 0 600 400" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+      @keyframes floatYarn {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(3deg); }
+      }
+      @keyframes gentlePulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.04); }
+      }
+      @keyframes stitchWave {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 100; }
+      }
+      @keyframes sparkle {
+        0%, 100% { opacity: 0.3; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      @keyframes hookMove {
+        0%, 100% { transform: translate(0, 0) rotate(-25deg); }
+        50% { transform: translate(-8px, -14px) rotate(-18deg); }
+      }
+      .yarn-ball { transform-origin: center; animation: floatYarn 4.5s ease-in-out infinite; }
+      .puff-stitch { transform-origin: center; animation: gentlePulse 3.5s ease-in-out infinite; }
+      .yarn-strand { stroke-dasharray: 8 6; animation: stitchWave 4s linear infinite; }
+      .sparkle-1 { transform-origin: 120px 100px; animation: sparkle 2.4s ease-in-out infinite; }
+      .sparkle-2 { transform-origin: 480px 140px; animation: sparkle 3.1s ease-in-out infinite 0.8s; }
+      .sparkle-3 { transform-origin: 360px 80px; animation: sparkle 2.8s ease-in-out infinite 0.4s; }
+      .crochet-hook { transform-origin: 340px 180px; animation: hookMove 3.8s ease-in-out infinite; }
+    </style>
+<lineargradient id="pinkBall" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#FBCFE8"></stop>
+<stop offset="50%" stop-color="#F472B6"></stop>
+<stop offset="100%" stop-color="#DB2777"></stop>
+</lineargradient>
+<lineargradient id="puffGrad" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#FFF1F2"></stop>
+<stop offset="100%" stop-color="#FCE7F3"></stop>
+</lineargradient>
+<filter height="140%" id="softShadow" width="140%" x="-20%" y="-20%">
+<fedropshadow dx="0" dy="12" flood-color="#F472B6" flood-opacity="0.25" stddeviation="15"></fedropshadow>
+</filter>
+</defs>
+<!-- Background decorative pastel circles -->
+<circle cx="300" cy="200" fill="#FFF5F7" opacity="0.8" r="170"></circle>
+<circle cx="210" cy="160" fill="#FDF2F8" opacity="0.6" r="90"></circle>
+<circle cx="390" cy="230" fill="#FCE7F3" opacity="0.5" r="110"></circle>
+<!-- Flowing yarn decorative trails -->
+<path class="yarn-strand" d="M 60 280 C 140 240, 180 340, 260 270 S 370 200, 440 280 S 520 230, 560 260" fill="none" opacity="0.7" stroke="#F472B6" stroke-linecap="round" stroke-width="4"></path>
+<path class="yarn-strand" d="M 100 130 C 170 90, 230 140, 310 110 S 430 70, 500 120" fill="none" opacity="0.5" stroke="#FDA4AF" stroke-linecap="round" stroke-width="3"></path>
+<!-- Center Yarn Ball & Amigurumi Silhouette -->
+<g class="yarn-ball" filter="url(#softShadow)">
+<!-- Yarn Ball Base -->
+<ellipse cx="260" cy="220" fill="url(#pinkBall)" rx="90" ry="85"></ellipse>
+<!-- Yarn winding lines -->
+<path d="M 190 190 C 220 160, 280 170, 310 210 C 330 240, 310 280, 260 290" fill="none" opacity="0.75" stroke="#FFF" stroke-linecap="round" stroke-width="5"></path>
+<path d="M 210 240 C 240 270, 290 260, 320 220 C 340 180, 290 160, 240 170" fill="none" opacity="0.85" stroke="#FCE7F3" stroke-linecap="round" stroke-width="4"></path>
+<path d="M 230 160 C 270 190, 270 250, 220 275" fill="none" opacity="0.5" stroke="#F43F5E" stroke-linecap="round" stroke-width="3.5"></path>
+<path d="M 180 220 C 210 210, 280 205, 330 230" fill="none" opacity="0.7" stroke="#FFF" stroke-linecap="round" stroke-width="4"></path>
+</g>
+<!-- Puff Flower / Cloud Motif -->
+<g class="puff-stitch" transform="translate(370, 160)">
+<!-- 5 Puff Petals -->
+<circle cx="0" cy="-35" fill="url(#puffGrad)" r="26" stroke="#F472B6" stroke-width="3"></circle>
+<circle cx="33" cy="-11" fill="url(#puffGrad)" r="26" stroke="#F472B6" stroke-width="3"></circle>
+<circle cx="21" cy="30" fill="url(#puffGrad)" r="26" stroke="#F472B6" stroke-width="3"></circle>
+<circle cx="-21" cy="30" fill="url(#puffGrad)" r="26" stroke="#F472B6" stroke-width="3"></circle>
+<circle cx="-33" cy="-11" fill="url(#puffGrad)" r="26" stroke="#F472B6" stroke-width="3"></circle>
+<!-- Center button -->
+<circle cx="0" cy="0" fill="#F43F5E" r="16"></circle>
+<circle cx="0" cy="0" fill="#FFF" r="7"></circle>
+</g>
+<!-- Interactive Crochet Hook (Puff Hook) -->
+<g class="crochet-hook">
+<!-- Hook Rod -->
+<rect fill="#9D174D" height="180" rx="6" transform="rotate(-30 290 70)" width="12" x="290" y="70"></rect>
+<!-- Ergonomic Soft Pink Grip -->
+<rect fill="#EC4899" height="90" rx="10" transform="rotate(-30 290 70)" width="20" x="286" y="140"></rect>
+<rect fill="#F472B6" height="45" rx="7" transform="rotate(-30 290 70)" width="14" x="289" y="160"></rect>
+<!-- Metallic Hook Lip -->
+<path d="M 230 65 C 235 55, 245 56, 248 62 C 250 67, 242 72, 238 68" fill="none" stroke="#9D174D" stroke-linecap="round" stroke-width="6"></path>
+</g>
+<!-- Cute Sparkles -->
+<g class="sparkle-1">
+<path d="M 120 90 Q 120 100 110 100 Q 120 100 120 110 Q 120 100 130 100 Q 120 100 120 90 Z" fill="#EC4899"></path>
+</g>
+<g class="sparkle-2">
+<path d="M 480 130 Q 480 140 470 140 Q 480 140 480 150 Q 480 140 490 140 Q 480 140 480 130 Z" fill="#F43F5E"></path>
+</g>
+<g class="sparkle-3">
+<path d="M 360 70 Q 360 80 350 80 Q 360 80 360 90 Q 360 80 370 80 Q 360 80 360 70 Z" fill="#F472B6"></path>
+</g>
+</svg></div><!-- STITCH_SVG_END:ANIMATION_2 -->
+</div>
+<div class="flex items-center justify-between w-full px-2 pt-2">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Tonton Irama Benang Bergerak</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary font-bold">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span> Live Crafting
+              </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE SECTION: PUFF STITCH SIMULATOR -->
+<section class="w-full py-space-xl px-margin-mobile lg:px-margin bg-surface-container-low/50">
+<div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-[2rem] p-space-md lg:p-space-xl shadow-[0_12px_36px_-6px_rgba(177,14,107,0.08)]">
+<div class="text-center max-w-xl mx-auto mb-space-lg">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-bold">Mini Interaktif</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-1">Coba Rangkai Motif Crochet Kamu</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Pilih warna benang favoritmu dan klik tombol rajut untuk melihat jalinan puff stitch bertambah!
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md items-center">
+<!-- Color Selector -->
+<div class="md:col-span-5 flex flex-col gap-space-sm p-space-md rounded-2xl bg-surface-container-low">
+<label class="font-title-md text-title-md text-on-surface">1. Pilih Warna Benang:</label>
+<div class="grid grid-cols-2 gap-space-xs" id="color-palette-group">
+<button class="yarn-color-btn active flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-lowest hover:bg-secondary-fixed transition-all text-left shadow-sm" onclick="selectYarnColor('#F472B6', 'Blush Pink')" type="button">
+<span class="w-5 h-5 rounded-full bg-[#F472B6] shadow-inner"></span>
+<span class="font-label-md text-label-md text-on-surface">Blush Pink</span>
+</button>
+<button class="yarn-color-btn flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-lowest hover:bg-secondary-fixed transition-all text-left shadow-sm" onclick="selectYarnColor('#FDF4E3', 'Cream Milk')" type="button">
+<span class="w-5 h-5 rounded-full bg-[#FDF4E3] border border-outline-variant shadow-inner"></span>
+<span class="font-label-md text-label-md text-on-surface">Cream Milk</span>
+</button>
+<button class="yarn-color-btn flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-lowest hover:bg-secondary-fixed transition-all text-left shadow-sm" onclick="selectYarnColor('#BE185D', 'Baby Berry')" type="button">
+<span class="w-5 h-5 rounded-full bg-[#BE185D] shadow-inner"></span>
+<span class="font-label-md text-label-md text-on-surface">Baby Berry</span>
+</button>
+<button class="yarn-color-btn flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-lowest hover:bg-secondary-fixed transition-all text-left shadow-sm" onclick="selectYarnColor('#E8D5C4', 'Vanilla Mist')" type="button">
+<span class="w-5 h-5 rounded-full bg-[#E8D5C4] shadow-inner"></span>
+<span class="font-label-md text-label-md text-on-surface">Vanilla Mist</span>
+</button>
+</div>
+<div class="pt-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Warna terpilih: </span>
+<span class="font-label-md text-label-md text-primary font-bold" id="active-yarn-name">Blush Pink</span>
+</div>
+</div>
+<!-- Stitching Canvas & Counter -->
+<div class="md:col-span-7 flex flex-col items-center justify-center p-space-md rounded-2xl bg-surface-container-lowest">
+<div class="flex items-center justify-between w-full mb-3">
+<span class="font-label-md text-label-md text-on-surface-variant">Simpul Rajutan Terpasang:</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="stitch-counter">0</span>
+</div>
+<!-- Visual Loop Display Area -->
+<div class="w-full h-24 rounded-2xl bg-surface-container-low flex items-center justify-center gap-1.5 p-3 overflow-x-auto" id="stitch-visual-tray">
+<span class="font-body-sm text-body-sm text-on-surface-variant italic" id="empty-tray-notice">Klik tombol di bawah untuk membuat simpul pertama! ✨</span>
+</div>
+<div class="flex items-center gap-space-sm mt-space-md w-full">
+<button class="flex-1 inline-flex items-center justify-center gap-2 bg-primary text-on-primary font-label-md text-label-md py-3 rounded-full hover:bg-surface-tint active:scale-95 shadow-[0_8px_20px_rgba(177,14,107,0.2)] transition-all" id="hook-btn" onclick="addPuffStitch()">
+<span class="material-symbols-outlined text-[18px]">gesture</span>
+<span>Hook a Puff Stitch! (+1 Simpul)</span>
+</button>
+<button class="p-3 rounded-full bg-surface-container-high text-on-surface hover:text-error transition-colors" onclick="resetStitches()" title="Reset Simpul">
+<span class="material-symbols-outlined text-[20px]">refresh</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT US SECTION: CERITA DI BALIK PUFF HOOK -->
+<section class="w-full py-space-xl lg:py-24 px-margin-mobile lg:px-margin bg-surface" id="tentang-kami">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Story & Philosophy -->
+<div class="lg:col-span-6 flex flex-col gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-8 h-0.5 bg-primary"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Cerita Pengrajin</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface leading-snug">
+            Sentuhan Lambat, Makna Mendalam di Tiap Tarikan Kait.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Berawal dari secangkir teh hangat dan kegemaran merajut di sudut ruang tamu, <strong>Puff Hook</strong> lahir dari apresiasi terhadap <em>slow crafting</em>. Kami percaya bahwa barang buatan tangan membawa vibrasi kehangatan emosional yang tak bisa ditiru mesin pabrik massal.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Setiap kelopak bunga amigurumi dan jinjingan tas dirajut helai demi helai menggunakan teknik <em>puff stitch</em> padat agar bertekstur empuk, awet, dan tetap menawan sepanjang waktu.
+          </p>
+<!-- Metrics / Numbers -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-sm">
+<div class="p-space-sm rounded-2xl bg-surface-container-low text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">3+</span>
+<p class="font-body-sm text-xs text-on-surface-variant mt-1">Tahun Pengalaman</p>
+</div>
+<div class="p-space-sm rounded-2xl bg-surface-container-low text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">150+</span>
+<p class="font-body-sm text-xs text-on-surface-variant mt-1">Desain Orisinal</p>
+</div>
+<div class="p-space-sm rounded-2xl bg-surface-container-low text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">99.4%</span>
+<p class="font-body-sm text-xs text-on-surface-variant mt-1">Kepuasan Pembeli</p>
+</div>
+</div>
+</div>
+<!-- Right: 4 Quality Pillars Bento Cards -->
+<div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-[0_8px_24px_rgba(177,14,107,0.04)] flex flex-col gap-2 hover:-translate-y-1 transition-transform">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">spa</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Milk Cotton &amp; Chenille</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hanya memakai benang impor bersertifikat bebas alergi yang lembut saat disentuh kulit sensitif.</p>
+</div>
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-[0_8px_24px_rgba(177,14,107,0.04)] flex flex-col gap-2 hover:-translate-y-1 transition-transform">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">bubble_chart</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Signature Puff Stitch</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bentuk gelembung rajut montok dan simetris yang menjadi identitas visual unik Puff Hook.</p>
+</div>
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-[0_8px_24px_rgba(177,14,107,0.04)] flex flex-col gap-2 hover:-translate-y-1 transition-transform">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">sanitizer</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Higienis &amp; UV Sanitized</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Setiap item disterilisasi sebelum dikemas dalam wadah bersegel kedap debu.</p>
+</div>
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-[0_8px_24px_rgba(177,14,107,0.04)] flex flex-col gap-2 hover:-translate-y-1 transition-transform">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">featured_seasonal_and_gifts</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Gift Box &amp; Kartu Pesan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kemasan kotak berpita pastel estetik dengan kartu ucapan kaligrafi custom gratis.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PRODUCT SHOWCASE WITH FILTER TABS -->
+<section class="w-full py-space-xl lg:py-24 px-margin-mobile lg:px-margin bg-surface-container-low/40" id="koleksi-produk">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Katalog Kerajinan</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Koleksi Rajutan Pilihan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Dibuat satu per satu dengan tangan, menghasilkan tekstur yang khas dan istimewa.</p>
+</div>
+<!-- Filter Chips Bar -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-2 scrollbar-none" id="product-filter-bar">
+<button class="filter-tab active font-label-md text-label-md px-space-md py-2 rounded-full bg-primary text-on-primary shadow-sm whitespace-nowrap transition-all" onclick="filterProducts('all', this)" type="button">Semua Produk</button>
+<button class="filter-tab font-label-md text-label-md px-space-md py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-high whitespace-nowrap transition-all" onclick="filterProducts('amigurumi', this)" type="button">Amigurumi Lucu</button>
+<button class="filter-tab font-label-md text-label-md px-space-md py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-high whitespace-nowrap transition-all" onclick="filterProducts('flower', this)" type="button">Puff Flower &amp; Buket</button>
+<button class="filter-tab font-label-md text-label-md px-space-md py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-high whitespace-nowrap transition-all" onclick="filterProducts('bag', this)" type="button">Tas &amp; Pouch</button>
+<button class="filter-tab font-label-md text-label-md px-space-md py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-high whitespace-nowrap transition-all" onclick="filterProducts('acc', this)" type="button">Aksesoris &amp; Cardigan</button>
+</div>
+</div>
+<!-- 6 Product Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="products-grid">
+<!-- Product 1 -->
+<div class="product-item group flex flex-col bg-surface-container-lowest rounded-[2rem] p-4 shadow-[0_12px_32px_-4px_rgba(177,14,107,0.06)] hover:shadow-[0_18px_36px_-4px_rgba(236,72,153,0.16)] transition-all hover:-translate-y-1" data-category="amigurumi">
+<div class="relative w-full aspect-square rounded-[1.5rem] overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Chunky pink and cream white handmade crochet bunny amigurumi plush toy wearing a soft ribbon on cozy aesthetic wood surface with warm morning lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiMDXxx_v82h0EsNKsb1b5YrzB2AGWTXF8QWh-vAnrtptdlAKH0WEeoQ2UGM9DEzjfGvzQGuPQv6DYkReLatIH38c4mRQYA7Yr7fDjn2bOP3Y5CHfz5maMLSvU6-ASE0Jtb72Iu5bA3Lgc72zQLVOcc2oE7uGMOBvViGDphaZlC7id6dmMnikN66uEOwKJy_oNVnhvpWZio5-ryrS-pf-XZtUkmq4H6nR08KsSA7_d5ucR5X2RBadxQw"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-xs font-bold shadow-sm">Best Seller</span>
+<span class="absolute bottom-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-xs">4.0mm Hook</span>
+</div>
+<div class="flex flex-col flex-1 gap-1">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Amigurumi Premium</span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Blushing Bunny Amigurumi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Boneka kelinci empuk berbahan chenille chunky lembut dengan aksen pipi blush dan pita satin.</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-body-sm text-xs text-on-surface-variant block">Harga Adopsi</span>
+<span class="font-title-lg text-title-lg text-primary font-bold">Rp 145.000</span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors" href="https://wa.me/?text=Halo%20Puff%20Hook,%20saya%20tertarik%20adopsi%20Blushing%20Bunny%20Amigurumi" target="_blank">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Pesan WA</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="product-item group flex flex-col bg-surface-container-lowest rounded-[2rem] p-4 shadow-[0_12px_32px_-4px_rgba(177,14,107,0.06)] hover:shadow-[0_18px_36px_-4px_rgba(236,72,153,0.16)] transition-all hover:-translate-y-1" data-category="flower">
+<div class="relative w-full aspect-square rounded-[1.5rem] overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Everlasting crochet flower bouquet with soft pink roses, cream daisies, and green stems wrapped in aesthetic translucent frosted craft paper tied with twine" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqHPnMwMUnaUR7RfEpLvNhZFl8UW7lc4Roell9dN6kUQlBnGPBOnjhJMs5Fg3kHsy6TAwMV4SZ3LTdGNX1thAPX1wNkCOOPXw9MYm4qyDKRco2j7-a-826VLdJvmeH6karN3AJetojeXUUzfgcQpVZ9bL74Ei8GS1pZGRMzeE0eof-KBSgU59TO0p9xdYyupZorqSpZMUU7ROjZG8cipxDZoTbVKO1XpiUgWRaforCfJ6wdbywbXbWUA"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-xs font-bold">Bunga Abadi</span>
+<span class="absolute bottom-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-xs">3.0mm Hook</span>
+</div>
+<div class="flex flex-col flex-1 gap-1">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Bouquet Gift</span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Puff Blossom Flower Bouquet</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Buket bunga rajutan 7 tangkai kombinasi mawar puff, daisy, dan lavender. Cantik abadi tanpa layu.</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-body-sm text-xs text-on-surface-variant block">Harga Spesial</span>
+<span class="font-title-lg text-title-lg text-primary font-bold">Rp 175.000</span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors" href="https://wa.me/?text=Halo%20Puff%20Hook,%20saya%20ingin%20memesan%20Puff%20Blossom%20Flower%20Bouquet" target="_blank">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Pesan WA</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="product-item group flex flex-col bg-surface-container-lowest rounded-[2rem] p-4 shadow-[0_12px_32px_-4px_rgba(177,14,107,0.06)] hover:shadow-[0_18px_36px_-4px_rgba(236,72,153,0.16)] transition-all hover:-translate-y-1" data-category="bag">
+<div class="relative w-full aspect-square rounded-[1.5rem] overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Chunky crochet marshmallow cloud shoulder tote bag in dual-tone pastel blush pink and warm ivory, cozy modern lifestyle flatlay on linen background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAS3W_x3oaVhX77GlcWAkuoHlaxytJjwfnHfoTQ45t8dgrRctucAo4d4CSZ7TddZl0H75M5klaYA39OyFHIXRpXMzYcknGkzfq5RV_FMP--8vpZ8Tyxc6wY9C-ZU2_U6ksgbg5w_Gn6hq2njiHAci6civkTA-2jFdtEbpTH-1jHl-fyOulfFHmde3noXnWQnGdE0W3s44UOajmvo1rc4BUU7zKOB9NI9Y8RVWFDlzje5BKQXvCs9i4aZA"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-xs font-bold">Favorit Hangout</span>
+<span class="absolute bottom-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-xs">6.0mm Hook</span>
+</div>
+<div class="flex flex-col flex-1 gap-1">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Tas &amp; Jinjing</span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Cloudy Marshmallow Tote Bag</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Tekstur rajut puff tebal, muat tablet dan dompet. Dilengkapi inner furing satin halus &amp; kancing magnet.</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-body-sm text-xs text-on-surface-variant block">Harga Produk</span>
+<span class="font-title-lg text-title-lg text-primary font-bold">Rp 220.000</span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors" href="https://wa.me/?text=Halo%20Puff%20Hook,%20saya%20mau%20order%20Cloudy%20Marshmallow%20Tote%20Bag" target="_blank">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Pesan WA</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="product-item group flex flex-col bg-surface-container-lowest rounded-[2rem] p-4 shadow-[0_12px_32px_-4px_rgba(177,14,107,0.06)] hover:shadow-[0_18px_36px_-4px_rgba(236,72,153,0.16)] transition-all hover:-translate-y-1" data-category="acc">
+<div class="relative w-full aspect-square rounded-[1.5rem] overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Mini cute crochet strawberry keychain charm with tiny green leaves and gold lobster clasp hanging on a cream handbag handle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKD5IxYii_GFZJQHbdvc9gfPkjs8UzgU3zS96M5rfuxOJujRse0fIPqLy3axzHu6wBz_PC95kslK24YFHlzywyLOXKLLsNxhpQLeYarDPSep502KkzfsYyYAxcsYkpG9WeGsoG-wk1B8WcfZyfs4ZaLwSpGD0HcEb0D4WJ4U4AS48SOdRJ9aVg50ChAIGodeTe1AnjPTBc6_GBeHuOay4LjzxSPveAxJlhhmkkwfVvAK8T2aXN8eFTqg"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-xs font-bold">Cute Charm</span>
+<span class="absolute bottom-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-xs">2.5mm Hook</span>
+</div>
+<div class="flex flex-col flex-1 gap-1">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Gantungan Kunci</span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Mini Strawberry Keychain Charm</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Aksesoris tas puffy berbentuk stroberi imut dilengkapi gantungan ring emas tahan karat.</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-body-sm text-xs text-on-surface-variant block">Harga Mulai</span>
+<span class="font-title-lg text-title-lg text-primary font-bold">Rp 35.000</span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors" href="https://wa.me/?text=Halo%20Puff%20Hook,%20saya%20ingin%20beli%20Mini%20Strawberry%20Keychain" target="_blank">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Pesan WA</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Product 5 -->
+<div class="product-item group flex flex-col bg-surface-container-lowest rounded-[2rem] p-4 shadow-[0_12px_32px_-4px_rgba(177,14,107,0.06)] hover:shadow-[0_18px_36px_-4px_rgba(236,72,153,0.16)] transition-all hover:-translate-y-1" data-category="acc">
+<div class="relative w-full aspect-square rounded-[1.5rem] overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Set of 4 hand-crocheted bear face coasters in shades of soft pink and ivory milk cotton arranged with a ceramic mug on a sunny desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzpxhdD-wfxW5BC2oFfdelH9Kx3idDgmeBtWaEH-f96BxGhB72BZlyPQSz9ou5qzX9rLfRtSzvypZq54AUVv_4VLgrDN6wNgyzL-c28eXIM8AR51hlBAq1D9Jihl0A3Etw5jcgcoqNpNQhIM4wHPE3zHLn86bWqsJPrIm5qzZe5ZgLyWe1Cr-r23Hi1HXAMAo2Ih6_v8qDsa8oZiUk6bbjXLcOF3IioKPrg_HNMzQIRlEmgV2KdXC8PQ"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-xs font-bold">Home Living</span>
+<span class="absolute bottom-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-xs">3.5mm Hook</span>
+</div>
+<div class="flex flex-col flex-1 gap-1">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Tatakan Meja</span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Fluffy Bear Head Coaster (Isi 4)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Tatakan cangkir rajut siluet beruang tebal penyerap embun panas dan dingin.</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-body-sm text-xs text-on-surface-variant block">Paket 4 Pcs</span>
+<span class="font-title-lg text-title-lg text-primary font-bold">Rp 65.000</span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors" href="https://wa.me/?text=Halo%20Puff%20Hook,%20saya%20pesan%20Fluffy%20Bear%20Coaster%20Set" target="_blank">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Pesan WA</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Product 6 -->
+<div class="product-item group flex flex-col bg-surface-container-lowest rounded-[2rem] p-4 shadow-[0_12px_32px_-4px_rgba(177,14,107,0.06)] hover:shadow-[0_18px_36px_-4px_rgba(236,72,153,0.16)] transition-all hover:-translate-y-1" data-category="acc">
+<div class="relative w-full aspect-square rounded-[1.5rem] overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Chic pastel pink and cream white granny square crochet cardigan hanging on a minimalist natural wood hanger against a soft warm interior wall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn4KKQCdHNiV7ZiPebaf9busT605qxwi5s68k1H-CXQg15-fdWJi1SWEnkSKTJDU9YrX48-r6tEDU4_VUK4umPBFB3iUYtMeR6oBr-iQt8nNptP32V0lU38CzJEdHzgybSUBSvQ_qjgtvnkPz6rcW17AIKX5gSp7xOzhOXYmAakI4ThZq69w14gsxQkHbo32aqSkHrGOfCOnz9zzRSBIleei2_oAo6PnhzOBmCrbmN9TzQTck6mfbMqQ"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-xs font-bold">Limited Piece</span>
+<span class="absolute bottom-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-xs">5.0mm Hook</span>
+</div>
+<div class="flex flex-col flex-1 gap-1">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Wearable Art</span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Pastel Granny Square Cardigan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Cardigan rajutan motif bunga timbul pastel. Lembut, breathable, dan sangat nyaman dipakai seharian.</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-body-sm text-xs text-on-surface-variant block">Eksklusif</span>
+<span class="font-title-lg text-title-lg text-primary font-bold">Rp 380.000</span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors" href="https://wa.me/?text=Halo%20Puff%20Hook,%20saya%20tertarik%20dengan%20Pastel%20Granny%20Square%20Cardigan" target="_blank">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Pesan WA</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CUSTOM ORDER SECTION (INTERACTIVE SIMULATOR & WORKFLOW) -->
+<section class="w-full py-space-xl lg:py-24 px-margin-mobile lg:px-margin bg-surface" id="custom-order">
+<div class="max-w-7xl mx-auto">
+<!-- Timeline Header -->
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Kustomisasi Tanpa Batas</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Buat Rajutan Karakter Impianmu</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Punya referensi karakter animasi, boneka peliharaan, atau ingin warna buket pernikahan yang spesifik? Kami wujudkan dengan tangan terampil.
+        </p>
+</div>
+<!-- 3-Step Timeline Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-space-xl">
+<div class="p-space-lg rounded-[2rem] bg-surface-container-low/70 flex flex-col gap-3 relative">
+<div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm text-headline-sm">1</div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Konsultasi &amp; Desain</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kirim foto referensi atau deskripsikan warna serta ukuran yang diinginkan lewat chat studio kami.</p>
+</div>
+<div class="p-space-lg rounded-[2rem] bg-surface-container-low/70 flex flex-col gap-3 relative">
+<div class="w-12 h-12 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-headline-sm text-headline-sm">2</div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Proses Rajut (3-7 Hari)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pengrajin mulai merajut teliti tiap simpul. Kami rutin membagikan foto progres pengerjaan.</p>
+</div>
+<div class="p-space-lg rounded-[2rem] bg-surface-container-low/70 flex flex-col gap-3 relative">
+<div class="w-12 h-12 rounded-full bg-surface-container-high text-primary flex items-center justify-center font-headline-sm text-headline-sm">3</div>
+<h3 class="font-title-lg text-title-lg text-on-surface">QC &amp; Gift Packaging</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pengecekan kerapian, sanitasi benang, lalu dikemas gift box cantik siap sampai di pintu rumahmu.</p>
+</div>
+</div>
+<!-- Interactive Custom Order Form Calculator -->
+<div class="max-w-3xl mx-auto p-space-md lg:p-space-xl rounded-[2.5rem] bg-surface-container-lowest shadow-[0_16px_40px_-6px_rgba(177,14,107,0.1)]">
+<div class="flex items-center gap-2 mb-space-md">
+<span class="material-symbols-outlined text-primary">tune</span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Kalkulator Estimasi Custom Rajut</h3>
+</div>
+<form class="flex flex-col gap-space-md" id="custom-form" onsubmit="event.preventDefault(); submitCustomOrder();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Jenis Rajutan -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface" for="custom-type">Jenis Rajutan:</label>
+<select class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-primary" id="custom-type" onchange="calcCustomPrice()">
+<option value="120000">Amigurumi Mini Karakter (~10cm)</option>
+<option selected="" value="180000">Amigurumi Sedang (~18cm)</option>
+<option value="250000">Buket Bunga Lengkap (7-9 Tangkai)</option>
+<option value="220000">Tas Rajut / Pouch Custom</option>
+<option value="390000">Cardigan / Rompi Rajut</option>
+</select>
+</div>
+<!-- Palet Warna -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface" for="custom-color-scheme">Tema Palet Warna:</label>
+<select class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-primary" id="custom-color-scheme">
+<option>Sakura Pastel (Soft Pink &amp; Cream)</option>
+<option>Berry Shortcake (Dusty Pink &amp; Maroon)</option>
+<option>Matcha Latte (Sage Green &amp; Soft Cream)</option>
+<option>Baby Blue Sky (Pastel Blue &amp; White)</option>
+<option>Kustom Campur (Sesuai Catatan)</option>
+</select>
+</div>
+</div>
+<!-- Add-ons Checkboxes -->
+<div class="flex flex-col gap-2">
+<span class="font-label-md text-label-md text-on-surface">Tambahan Detail:</span>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+<label class="flex items-center gap-2 p-3 rounded-xl bg-surface-container-low cursor-pointer">
+<input class="rounded text-primary accent-primary" id="addon-box" onchange="calcCustomPrice()" type="checkbox" value="15000"/>
+<span class="font-body-sm text-body-sm text-on-surface">Gift Box &amp; Pita (+15k)</span>
+</label>
+<label class="flex items-center gap-2 p-3 rounded-xl bg-surface-container-low cursor-pointer">
+<input class="rounded text-primary accent-primary" id="addon-tag" onchange="calcCustomPrice()" type="checkbox" value="10000"/>
+<span class="font-body-sm text-body-sm text-on-surface">Inisial Huruf (+10k)</span>
+</label>
+<label class="flex items-center gap-2 p-3 rounded-xl bg-surface-container-low cursor-pointer">
+<input class="rounded text-primary accent-primary" id="addon-card" onchange="calcCustomPrice()" type="checkbox" value="5000"/>
+<span class="font-body-sm text-body-sm text-on-surface">Kartu Ucapan (+5k)</span>
+</label>
+</div>
+</div>
+<!-- Request Note -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface" for="custom-notes">Catatan Khusus / Deskripsi Karakter:</label>
+<textarea class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-primary" id="custom-notes" placeholder="Contoh: Tolong buatkan telinga kelincinya sedikit floppy dan beri syal pink kecil..." rows="2"></textarea>
+</div>
+<!-- Estimasi Price Bar -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm p-space-md rounded-2xl bg-surface-container-high/80">
+<div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Perkiraan Biaya Pembuatan:</span>
+<span class="font-headline-md text-headline-md text-primary font-bold" id="price-display">Rp 180.000</span>
+</div>
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-primary text-on-primary hover:bg-surface-tint font-label-md text-label-md px-space-lg py-3 rounded-full shadow-[0_8px_24px_rgba(177,14,107,0.25)] transition-all" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Kirim Request ke WhatsApp</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- TESTIMONIALS & FAQ SECTION -->
+<section class="w-full py-space-xl lg:py-24 px-margin-mobile lg:px-margin bg-surface-container-low/30">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="text-center max-w-xl mx-auto">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Love Notes</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Kata Mereka Tentang Puff Hook</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Kisah nyata kebahagiaan dari para penerima kehangatan benang rajut kami.</p>
+</div>
+<!-- 3 Testimonial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="p-space-lg rounded-[2rem] bg-surface-container-lowest shadow-[0_12px_32px_-4px_rgba(177,14,107,0.05)] flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Amigurumi bunny-nya fluffy banget, bahkan lebih gemas daripada foto di etalase! Benangnya beneran halus dan nggak rontok samasekali pas dipeluk anakku."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-2">
+<div class="w-11 h-11 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-primary">NS</div>
+<div class="flex flex-col">
+<span class="font-title-md text-sm font-bold text-on-surface">Nadira Salsabila</span>
+<span class="font-body-sm text-xs text-on-surface-variant">Surabaya • Blushing Bunny</span>
+</div>
+</div>
+</div>
+<div class="p-space-lg rounded-[2rem] bg-surface-container-lowest shadow-[0_12px_32px_-4px_rgba(177,14,107,0.05)] flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Buket bunganya aku pesan buat wisuda sahabatku. Reaksinya histeris karena cantik parah dan sekarang dipajang permanen di meja belajarnya tanpa layu!"
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-2">
+<div class="w-11 h-11 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-primary">CP</div>
+<div class="flex flex-col">
+<span class="font-title-md text-sm font-bold text-on-surface">Clarissa Putri</span>
+<span class="font-body-sm text-xs text-on-surface-variant">Bandung • Puff Bouquet</span>
+</div>
+</div>
+</div>
+<div class="p-space-lg rounded-[2rem] bg-surface-container-lowest shadow-[0_12px_32px_-4px_rgba(177,14,107,0.05)] flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Tote bag marshmallow-nya super kokoh, furing dalamnya rapi banget jahitannya. Cocok buat bawa barang kuliah dan sering ditanyain beli di mana."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-2">
+<div class="w-11 h-11 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-primary">FK</div>
+<div class="flex flex-col">
+<span class="font-title-md text-sm font-bold text-on-surface">Fania Kusuma</span>
+<span class="font-body-sm text-xs text-on-surface-variant">Jakarta Selatan • Marshmallow Tote</span>
+</div>
+</div>
+</div>
+</div>
+<!-- FAQ & Care Instructions Accordion -->
+<div class="max-w-3xl mx-auto w-full pt-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface text-center mb-space-md">Petunjuk Perawatan &amp; FAQ</h3>
+<div class="flex flex-col gap-3">
+<details class="group rounded-2xl bg-surface-container-lowest p-space-md shadow-sm transition-colors">
+<summary class="flex items-center justify-between cursor-pointer font-title-md text-title-md text-on-surface list-none">
+<span>Bagaimana cara mencuci boneka atau tas rajutan agar tidak melar?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180 text-primary">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 pt-2">
+              Cukup rendam dengan detergen cair lembut (atau sampo bayi) di air dingin selama 10-15 menit. Remas perlahan tanpa memeras atau memilin rajutan. Keringkan dengan cara diangin-anginkan secara mendatar (flat dry) beralaskan handuk bersih. Hindari pengering mesin cuci.
+            </p>
+</details>
+<details class="group rounded-2xl bg-surface-container-lowest p-space-md shadow-sm transition-colors">
+<summary class="flex items-center justify-between cursor-pointer font-title-md text-title-md text-on-surface list-none">
+<span>Berapa lama proses pembuatan untuk pesanan custom?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180 text-primary">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 pt-2">
+              Untuk pesanan amigurumi dan buket bunga standar memakan waktu 3-5 hari kerja. Sementara tas dan cardigan membutuhkan 5-7 hari kerja tergantung antrean produksi studio. Jika butuh tanggal mendesak, silakan konfirmasi melalui WhatsApp terlebih dahulu.
+            </p>
+</details>
+<details class="group rounded-2xl bg-surface-container-lowest p-space-md shadow-sm transition-colors">
+<summary class="flex items-center justify-between cursor-pointer font-title-md text-title-md text-on-surface list-none">
+<span>Apakah kemasan aman untuk pengiriman ke luar pulau?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180 text-primary">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 pt-2">
+              Sangat aman! Setiap produk dilindungi plastik pelindung, hard box karton tebal berpita, serta lapisan bubble wrap tebal 3 lapis untuk memastikan buket dan amigurumi tidak penyok saat perjalanan ekspedisi.
+            </p>
+</details>
+</div>
+</div>
+</div>
+</section>
+<!-- CALL TO ACTION BANNER -->
+<section class="w-full py-space-xl px-margin-mobile lg:px-margin bg-gradient-to-r from-primary via-primary-container to-secondary text-on-primary text-center">
+<div class="max-w-4xl mx-auto flex flex-col items-center gap-space-md">
+<div class="w-14 h-14 rounded-full bg-on-primary/10 flex items-center justify-center text-3xl">
+        🧶
+      </div>
+<h2 class="font-headline-lg text-headline-lg text-on-primary">Bawa Pulang Kelembutan Puff Hook Hari Ini</h2>
+<p class="font-body-lg text-body-lg text-on-primary/90 max-w-xl">
+        Konsultasikan ide hadiah atau pilih kreasi rajutan ready stock favoritmu langsung bersama pengrajin kami.
+      </p>
+<div class="flex flex-wrap items-center justify-center gap-space-sm pt-2">
+<a class="inline-flex items-center gap-2 bg-surface-container-lowest text-primary hover:bg-surface-container-high px-space-lg py-3.5 rounded-full font-label-md text-label-md font-bold shadow-lg transition-all hover:scale-105" href="https://wa.me/?text=Halo%20Puff%20Hook,%20saya%20ingin%20konsultasi%20pesanan%20rajutan" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Hubungi WhatsApp Official</span>
+</a>
+<a class="inline-flex items-center gap-2 bg-on-primary/10 hover:bg-on-primary/20 text-on-primary px-space-lg py-3.5 rounded-full font-label-md text-label-md transition-all" href="#koleksi-produk">
+<span>Lihat Katalog Produk Lagi</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript -->
+<script>
+    // Simulator Logic
+    let currentYarnColor = '#F472B6';
+    let stitchCount = 0;
+
+    function selectYarnColor(color, name) {
+      currentYarnColor = color;
+      document.getElementById('active-yarn-name').innerText = name;
+      
+      const buttons = document.querySelectorAll('.yarn-color-btn');
+      buttons.forEach(btn => btn.classList.remove('bg-secondary-fixed'));
+      event.currentTarget.classList.add('bg-secondary-fixed');
+    }
+
+    function addPuffStitch() {
+      stitchCount++;
+      document.getElementById('stitch-counter').innerText = stitchCount;
+      
+      const tray = document.getElementById('stitch-visual-tray');
+      const emptyNotice = document.getElementById('empty-tray-notice');
+      if (emptyNotice) {
+        emptyNotice.remove();
+      }
+
+      const stitch = document.createElement('div');
+      stitch.className = 'w-7 h-10 rounded-full shrink-0 shadow-sm transition-transform duration-300 scale-0 animate-bounce';
+      stitch.style.backgroundColor = currentYarnColor;
+      stitch.style.animationIterationCount = '1';
+      stitch.style.animationDuration = '0.4s';
+      stitch.style.transform = 'scale(1)';
+      
+      tray.appendChild(stitch);
+      tray.scrollLeft = tray.scrollWidth;
+    }
+
+    function resetStitches() {
+      stitchCount = 0;
+      document.getElementById('stitch-counter').innerText = '0';
+      const tray = document.getElementById('stitch-visual-tray');
+      tray.innerHTML = '<span id="empty-tray-notice" class="font-body-sm text-body-sm text-on-surface-variant italic">Klik tombol di bawah untuk membuat simpul pertama! ✨</span>';
+    }
+
+    // Filter Products Logic
+    function filterProducts(category, clickedButton) {
+      const tabs = document.querySelectorAll('#product-filter-bar .filter-tab');
+      tabs.forEach(tab => {
+        tab.classList.remove('bg-primary', 'text-on-primary');
+        tab.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+      });
+
+      clickedButton.classList.add('bg-primary', 'text-on-primary');
+      clickedButton.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+
+      const items = document.querySelectorAll('#products-grid .product-item');
+      items.forEach(item => {
+        if (category === 'all' || item.getAttribute('data-category') === category) {
+          item.classList.remove('hidden');
+          item.classList.add('flex');
+        } else {
+          item.classList.add('hidden');
+          item.classList.remove('flex');
+        }
+      });
+    }
+
+    // Custom Price Calculator Logic
+    function calcCustomPrice() {
+      const baseType = parseInt(document.getElementById('custom-type').value, 10);
+      let total = baseType;
+
+      if (document.getElementById('addon-box').checked) total += 15000;
+      if (document.getElementById('addon-tag').checked) total += 10000;
+      if (document.getElementById('addon-card').checked) total += 5000;
+
+      document.getElementById('price-display').innerText = 'Rp ' + total.toLocaleString('id-ID');
+    }
+
+    function submitCustomOrder() {
+      const typeSelect = document.getElementById('custom-type');
+      const typeText = typeSelect.options[typeSelect.selectedIndex].text;
+      const colorScheme = document.getElementById('custom-color-scheme').value;
+      const notes = document.getElementById('custom-notes').value || 'Tidak ada catatan tambahan';
+      const price = document.getElementById('price-display').innerText;
+
+      const message = `Halo Puff Hook! Saya ingin custom order:\n- Jenis: ${typeText}\n- Tema Warna: ${colorScheme}\n- Catatan: ${notes}\n- Estimasi: ${price}`;
+      window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface pt-space-xl pb-space-lg shadow-[0_12px_32px_-4px_rgba(190,24,93,0.04)]"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="Puff Hook Crochet Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WgFulLWjjEXZDtSQlPOcyNIrYBCY9OL5BQ4Pn0pKrdjf978f1wM1COHwElLkOIVak-4rZ-HTguM0L9Fs16hWEGL8NgS5-Sys-vCRIgkaI9UGu08ff7BgndB3VaxLsfMHRA5H3OPsVaVh13OQKqgOCSXRJ2rdF06dk9BNB_xZEonpB9sqVe3S5LL-2b3sidPm-05QYpYaoB_fR5Mu5y7RWKMmhYOc0aJVWqvGaXRMFFHs2TyiDRJDn1YgWe"/><span class="font-headline-sm text-headline-sm text-primary">Puff Hook</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Merajut kehangatan benang susu dan cinta dalam setiap helai simpul crochet artisanal. Dibuat lambat dan teliti untuk menghidupkan ruang favoritmu.</p><div class="flex items-center gap-space-xs mt-space-xs"><span class="inline-flex items-center px-space-sm py-space-xs rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">100% Milk Cotton</span><span class="inline-flex items-center px-space-sm py-space-xs rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">Handmade with Care</span></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-on-surface">Jelajahi Kreasi</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="beranda" href="#">Beranda Utama</a></li><li><a class="hover:text-primary transition-colors" data-path="tentang-kami" href="#">Cerita Pengrajin</a></li><li><a class="hover:text-primary transition-colors" data-path="koleksi-produk" href="#">Katalog Rajutan Pilihan</a></li><li><a class="hover:text-primary transition-colors" data-path="galeri-rajutan" href="#">Galeri Puff Magic</a></li><li><a class="hover:text-primary transition-colors" data-path="custom-order" href="#">Pesanan Khusus &amp; Hadiah</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-on-surface">Studio Rajut &amp; Layanan</h3><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><p><span class="font-label-md text-label-md text-on-surface block">Jam Operasional Studio:</span>Senin - Sabtu: 09.00 - 17.00 WIB<br/>Minggu: Libur Produksi (Konsultasi Chat Tetap Buka)</p><p><span class="font-label-md text-label-md text-on-surface block">Lokasi Workshop:</span>Bandung, Jawa Barat - Indonesia</p></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-on-surface">Sapa Pengrajin</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Temukan video proses merajut dan inspirasi warna di media sosial kami.</p><div class="flex flex-col gap-space-xs font-label-md text-label-md text-on-surface-variant"><a class="hover:text-primary transition-colors" href="#">Instagram: @puffhook.crochet</a><a class="hover:text-primary transition-colors" href="#">TikTok: @puffhook.magic</a><a class="hover:text-primary transition-colors" data-path="kontak" href="#">WhatsApp Studio Official</a></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-sm text-center sm:text-left"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Puff Hook Crochet. All rights reserved. Spreading softness stitch by stitch.</p><div class="flex items-center gap-space-sm font-label-sm text-label-sm text-secondary"><span class="inline-block w-2 h-2 rounded-full bg-secondary-container"></span><span>Puff Stitch Pattern Edition</span><span class="inline-block w-2 h-2 rounded-full bg-secondary-container"></span></div></div></div></footer></body></html>
