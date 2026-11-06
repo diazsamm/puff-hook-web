@@ -50,7 +50,7 @@ insert into products (
   '6.0mm Hook',
   220000,
   'Tas rajut puff tebal, muat tablet dan dompet, dengan furing satin dan kancing magnet.',
-  'Tekstur puff stitch yang montok dengan dual-tone pastel pink dan ivory.',
+  'Tekstur puff stitch yang padat dan empuk dengan dual-tone pastel pink dan ivory.',
   array['/seed/tote.jpg'],
   true,
   true,

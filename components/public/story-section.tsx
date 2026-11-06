@@ -17,7 +17,7 @@ const pillars = [
     icon: CircleDashed,
     title: "Signature Puff Stitch",
     description:
-      "Bentuk gelembung rajut montok dan simetris yang menjadi identitas visual unik Puff Hook.",
+      "Bentuk gelembung rajut yang padat, rapi, dan simetris menjadi identitas visual unik Puff Hook.",
   },
   {
     icon: SprayCan,

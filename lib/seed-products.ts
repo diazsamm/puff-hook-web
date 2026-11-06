@@ -56,7 +56,7 @@ export const SEED_PRODUCTS: Product[] = [
     price: 220000,
     short_description:
       "Tas rajut puff tebal, muat tablet dan dompet, dengan furing satin dan kancing magnet.",
-    description: "Tekstur puff stitch yang montok dengan dual-tone pastel pink dan ivory.",
+    description: "Tekstur puff stitch yang padat dan empuk dengan dual-tone pastel pink dan ivory.",
     images: ["/seed/tote.jpg"],
     featured: true,
     published: true,
