@@ -24,6 +24,11 @@ const settingsSchema = z.object({
     .trim()
     .max(300)
     .refine((value) => value === "" || /^https?:\/\//i.test(value), "URL harus diawali http:// atau https://"),
+  shopee_url: z
+    .string()
+    .trim()
+    .max(300)
+    .refine((value) => value === "" || /^https?:\/\//i.test(value), "URL harus diawali http:// atau https://"),
   hero_badge: z.string().trim().min(1, "Teks badge wajib diisi.").max(80, "Maksimal 80 karakter."),
   orders_badge: z.string().trim().min(1, "Teks badge wajib diisi.").max(80, "Maksimal 80 karakter."),
 });
@@ -37,6 +42,7 @@ export async function saveSettings(
     whatsapp_number_2: formData.get("whatsapp_number_2") ?? "",
     instagram_url: formData.get("instagram_url") ?? "",
     tiktok_url: formData.get("tiktok_url") ?? "",
+    shopee_url: formData.get("shopee_url") ?? "",
     hero_badge: formData.get("hero_badge") ?? "",
     orders_badge: formData.get("orders_badge") ?? "",
   });
@@ -85,6 +91,7 @@ export async function saveSettings(
       whatsapp_number_2: normalizedPhone2,
       instagram_url: parsed.data.instagram_url,
       tiktok_url: parsed.data.tiktok_url,
+      shopee_url: parsed.data.shopee_url,
       hero_badge: parsed.data.hero_badge,
       orders_badge: parsed.data.orders_badge,
     })

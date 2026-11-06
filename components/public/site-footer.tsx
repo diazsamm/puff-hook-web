@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ShoppingBag } from "lucide-react";
 import { Logo } from "@/components/logo";
 import { getCurrentYear } from "@/lib/year";
 import type { SiteSettings } from "@/lib/types";
@@ -66,6 +67,17 @@ export async function SiteFooter({ settings }: { settings: SiteSettings }) {
               className="transition-colors hover:text-primary"
             >
               TikTok
+            </a>
+          ) : null}
+          {settings.shopee_url ? (
+            <a
+              href={settings.shopee_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 transition-colors hover:text-primary"
+            >
+              <ShoppingBag className="h-4 w-4" />
+              Shopee
             </a>
           ) : null}
           <Link href="/#custom-order" className="transition-colors hover:text-primary">

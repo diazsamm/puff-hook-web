@@ -26,6 +26,7 @@ export type SiteSettings = {
   whatsapp_number_2: string;
   instagram_url: string;
   tiktok_url: string;
+  shopee_url: string;
   hero_badge: string;
   orders_badge: string;
   updated_at: string;

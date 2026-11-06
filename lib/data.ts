@@ -9,6 +9,7 @@ export const FALLBACK_SETTINGS: SiteSettings = {
   whatsapp_number_2: "",
   instagram_url: "https://www.instagram.com/puffhook.crochet_",
   tiktok_url: "",
+  shopee_url: "",
   hero_badge: "100% Handmade with Love & Fluffy Yarn",
   orders_badge: "4.800+ Pesanan Rajutan Terkirim",
   updated_at: "2026-01-01T00:00:00.000Z",
@@ -82,7 +83,11 @@ export async function getSiteSettings(): Promise<SiteSettings> {
   }
 
   const settings = (data as SiteSettings | null) ?? FALLBACK_SETTINGS;
-  return { ...settings, whatsapp_number_2: settings.whatsapp_number_2 ?? "" };
+  return {
+    ...settings,
+    whatsapp_number_2: settings.whatsapp_number_2 ?? "",
+    shopee_url: settings.shopee_url ?? "",
+  };
 }
 
 export function getSiteUrl(): string {

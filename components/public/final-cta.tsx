@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, ShoppingBag } from "lucide-react";
 import { WhatsAppLink } from "@/components/public/whatsapp-link";
 import type { SiteSettings } from "@/lib/types";
 
@@ -26,6 +26,17 @@ export function FinalCta({ settings }: { settings: SiteSettings }) {
             <MessageCircle className="h-4 w-4" />
             WhatsApp Official
           </WhatsAppLink>
+          {settings.shopee_url ? (
+            <a
+              href={settings.shopee_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#EE4D2D] py-3 text-xs font-bold text-white shadow-md transition-all hover:bg-[#D73211] active:scale-95"
+            >
+              <ShoppingBag className="h-4 w-4" />
+              Beli di Shopee
+            </a>
+          ) : null}
           <Link
             href="/#koleksi-produk"
             className="inline-flex w-full items-center justify-center rounded-full bg-on-primary/10 py-3 text-xs font-bold text-on-primary"

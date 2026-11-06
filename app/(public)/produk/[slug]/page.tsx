@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ChevronLeft, Gift, MessageCircle, ShieldCheck, Truck } from "lucide-react";
+import { ChevronLeft, Gift, MessageCircle, ShieldCheck, ShoppingBag, Truck } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ProductCard } from "@/components/public/product-card";
 import { ProductGallery } from "@/components/public/product-gallery";
@@ -105,15 +105,28 @@ export default async function ProductDetailPage({ params }: PageProps) {
             </p>
           ) : null}
 
-          <WhatsAppLink
-            phones={[settings.whatsapp_number, settings.whatsapp_number_2]}
-            message={message}
-            label={`Pesan ${product.name} via WhatsApp`}
-            className="mt-2 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary py-3.5 text-sm font-semibold text-on-primary shadow-[0_12px_28px_-4px_rgba(177,14,107,0.28)] transition-all hover:bg-tertiary active:scale-95"
-          >
-            <MessageCircle className="h-4 w-4" />
-            Pesan via WhatsApp
-          </WhatsAppLink>
+          <div className="mt-2 flex flex-col gap-2">
+            <WhatsAppLink
+              phones={[settings.whatsapp_number, settings.whatsapp_number_2]}
+              message={message}
+              label={`Pesan ${product.name} via WhatsApp`}
+              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary py-3.5 text-sm font-semibold text-on-primary shadow-[0_12px_28px_-4px_rgba(177,14,107,0.28)] transition-all hover:bg-tertiary active:scale-95"
+            >
+              <MessageCircle className="h-4 w-4" />
+              Pesan via WhatsApp
+            </WhatsAppLink>
+            {settings.shopee_url ? (
+              <a
+                href={settings.shopee_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-[#EE4D2D] py-3 text-sm font-semibold text-[#EE4D2D] transition-all hover:bg-[#EE4D2D] hover:text-white active:scale-95"
+              >
+                <ShoppingBag className="h-4 w-4" />
+                Beli di Shopee
+              </a>
+            ) : null}
+          </div>
 
           <p className="text-center text-[11px] text-on-surface-variant">
             Kamu juga bisa request warna, ukuran, atau inisial nama di chat.

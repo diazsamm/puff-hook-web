@@ -86,6 +86,20 @@ export function SettingsForm({ settings }: { settings: SiteSettings }) {
         </div>
 
         <div className="flex flex-col gap-1.5">
+          <Label htmlFor="shopee_url">Link Shopee</Label>
+          <Input
+            id="shopee_url"
+            name="shopee_url"
+            defaultValue={settings.shopee_url}
+            placeholder="https://shopee.co.id/puffhook"
+          />
+          <p className="text-[11px] text-on-surface-variant">
+            Kosongkan untuk menyembunyikan tombol Shopee. Link ini tampil di footer dan halaman
+            produk.
+          </p>
+        </div>
+
+        <div className="flex flex-col gap-1.5">
           <Label htmlFor="hero_badge">Teks badge hero</Label>
           <Input
             id="hero_badge"
